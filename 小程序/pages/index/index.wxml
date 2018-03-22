@@ -1,0 +1,22 @@
+<!--pages/second/second.wxml-->
+<text>pages/index/index.wxml</text>
+<view class="first" hover-class="first_hover">
+  <view style="flex-direction:row;height:50px">
+    <view class='first_content'>
+      <text>点击有回馈</text>
+      <text style='margin-left: 10px'>1</text>
+      <text style='margin-left: 10px'>2</text>
+      <text style='margin-left: 10px'>3</text>
+    </view>
+  </view>
+</view>
+<view class="second" hover-class="none">
+  <view style="flex-direction:column;">
+    <view class='second_content'>
+      <text>点击有回馈</text>
+      <text>1</text>
+      <text>2</text>
+      <text>3</text>
+    </view>
+  </view>
+</view>

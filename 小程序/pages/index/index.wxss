@@ -1,0 +1,19 @@
+.first_hover {
+  border: 1px solid #7b68ee;
+}
+
+.first_content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second_content {
+  flex-direction:column;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
