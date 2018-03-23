@@ -1,2 +1,8 @@
 <!--pages/second/second.wxml-->
 <text>pages/second/second.wxml</text>
+<view style="flex-direction:column">
+  <view style="flex-direction:column">
+    <text>{{msg}}</text>
+    <view>{{title}}</view>
+  </view>
+</view>
