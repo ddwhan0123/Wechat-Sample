@@ -5,27 +5,12 @@
     "pages/logs/logs"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#7B68EE",
+    "navigationBarBackgroundColor": "#F1C467",
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "王亟亟测试用的小程序",
+    "navigationBarTitleText": "只胡说不霸道",
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": false
-  },
-  "tabBar": {
-    "backgroundColor": "#7B68EE",
-    "color": "#ffffff",
-    "position":"bottom",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/second/second",
-        "text": "首页2"
-      }
-    ]
   },
   "debug": true
 }

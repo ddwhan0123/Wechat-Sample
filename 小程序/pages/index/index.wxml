@@ -13,10 +13,14 @@
 <view class="second" hover-class="none">
   <view style="flex-direction:column;">
     <view class='second_content'>
-      <text>点击有回馈</text>
+      <text bindtap='onClickAction'>点击有回馈</text>
       <text>1</text>
       <text>2</text>
       <text>3</text>
     </view>
   </view>
 </view>
+<view>
+  {{msg}}
+</view>
+<navigator open-type='navigate' url='../second/second'>跳转第二个页面</navigator>
