@@ -1,17 +1,21 @@
+var list = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh']
 Page({
   data: {
+    toView: 'first',
     loading: false,
-    size: 0
+    size_left: 0,
+    size_top: 0
   },
-  scrollToRed: function (e) {
+  scrollTo100left: function (e) {
+    console.log('---> size_left ' + this.data.size_left)
     this.setData({
-      toView: 'green'
+      size_left: this.data.size_left + 100,
+      size_top: this.data.size_top + 50
     })
   },
-  scrollTo100: function (e) {
-    console.log('---> size ' + this.data.size)
+  scrollTop: function (e) {
     this.setData({
-      size: this.data.size + 100
+      toView: list[1]
     })
   },
   setLoading: function (e) {
@@ -26,6 +30,9 @@ Page({
   },
   lower: function (e) {
     console.log('--->lower 滚动到底部')
+    this.setData({
+      toView: list.length - 1
+    })
   },
   scroll: function (e) {
     console.log(' ---> 正在滚动')
