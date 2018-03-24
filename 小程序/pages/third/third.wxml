@@ -1,8 +1,8 @@
 <!--pages/third/third.wxml-->
 <text>pages/third/third.wxml</text>
 <button class='move_to_button' type="warn" hover-class="none">偏移（按下去没回馈）</button>
-<button class='move_button' size='mine' type="primary">滚动指定（按下去有回馈）</button>
-<button class='move_button' size='mine' bindtap='setLoading' type="default" loading="{{loading}}">转圈的样式</button>
+<button class='move_button' size='mini' type="primary">滚动指定（按下去有回馈）</button>
+<button class='move_button' size='mini' bindtap='setLoading' type="default" loading="{{loading}}">转圈的样式</button>
 <view>下面是一个横向滚动的</view>
 <scroll-view class='horizontal_scroll' scroll-x="true" style='width:100%;'>
   <view class="scroll-x">
