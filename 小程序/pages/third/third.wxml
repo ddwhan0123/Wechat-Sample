@@ -1,10 +1,10 @@
 <!--pages/third/third.wxml-->
 <text>pages/third/third.wxml</text>
 <button class='move_to_button' type="warn" hover-class="none">偏移（按下去没回馈）</button>
-<button class='move_button' size='mini' type="primary">滚动指定（按下去有回馈）</button>
+<button class='move_button' size='mini' type="primary" bindtap='scrollTo100'>滚动指定（按下去有回馈）</button>
 <button class='move_button' size='mini' bindtap='setLoading' type="default" loading="{{loading}}">转圈的样式</button>
 <view>下面是一个横向滚动的</view>
-<scroll-view class='horizontal_scroll' scroll-x="true" style='width:100%;'>
+<scroll-view class='horizontal_scroll' scroll-x="true" style='width:100%;' bindscrolltoupper="upper" bindscrolltolower="lower" scroll-left="{{size}}">
   <view class="scroll-x">
     <view id="first" class="item_css_1">
       <view class='inside_css'>
@@ -21,7 +21,7 @@
   </view>
 </scroll-view>
 <view>下面是一个竖直的滚动</view>
-<scroll-view class='vertical_scroll' scroll-y="true" style='height:100%'>
+<scroll-view class='vertical_scroll' scroll-y="true" style='height:100%' bindscrolltoupper="upper" bindscrolltolower="lower">
   <view class='scroll-y'>
     <view id="first" class="item_css_3">1</view>
     <view id="second" class="item_css_3">2</view>

@@ -1,34 +1,7 @@
 Page({
   data: {
     loading: false,
-    //滚动的数组
-    scrolls: [
-      {
-        name: '黄色',
-        tag: 'yellow',
-      },
-      {
-        name: '绿色',
-        tag: 'green',
-      },
-      {
-        name: '红色',
-        tag: 'red',
-      },
-      {
-        name: '黄色',
-        tag: 'yellow',
-      },
-      {
-        name: '绿色',
-        tag: 'green',
-      },
-      {
-        name: '红色',
-        tag: 'red',
-      },
-    ],
-
+    size: 0
   },
   scrollToRed: function (e) {
     this.setData({
@@ -36,8 +9,9 @@ Page({
     })
   },
   scrollTo100: function (e) {
+    console.log('---> size ' + this.data.size)
     this.setData({
-      scrollLeft: this.data.scrollLeft + 100
+      size: this.data.size + 100
     })
   },
   setLoading: function (e) {
