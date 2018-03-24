@@ -6,3 +6,4 @@
     <view>{{title}}</view>
   </view>
 </view>
+<navigator open-type='navigate' url='../third/third?title=haha&msg=aaa'>跳转第三个页面</navigator>

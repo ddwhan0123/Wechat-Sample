@@ -1,0 +1,62 @@
+/* pages/third/third.wxss */
+
+.item_css_1 {
+  flex-direction: column;
+  display: inline-block;
+  align-items: center;
+  width: 400rpx;
+  height: 200rpx;
+  background: #f1c467;
+}
+
+.item_css_2 {
+  flex-direction: column;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 300rpx;
+  height: 200rpx;
+  background: #87cefa;
+}
+
+.item_css_3 {
+  flex-direction: column;
+  display: inline-block;
+  align-items: center;
+  width: 400rpx;
+  height: 200rpx;
+  background: #f1c467;
+}
+
+.item_css_4 {
+  flex-direction: column;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 300rpx;
+  height: 200rpx;
+  background: #87cefa;
+}
+
+.scroll-x {
+  white-space: nowrap;
+  display: inline-block;
+  flex-direction: row;
+}
+
+.scroll-y {
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+}
+
+.inside_css {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+}
+/* 
+page{
+  height: 100%
+} */

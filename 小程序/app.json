@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/second/second",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/third/third"
   ],
   "window": {
     "navigationBarBackgroundColor": "#F1C467",
