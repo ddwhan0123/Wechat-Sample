@@ -1,15 +1,15 @@
 <!--pages/third/third.wxml-->
 <text>pages/third/third.wxml</text>
-<button class='move_to_button' type="warn" hover-class="none">偏移（按下去没回馈）</button>
+<button class='move_to_button' type="warn" hover-class="none" bindtap='scrollTop'>偏移（按下去没回馈）</button>
 <button class='move_button' size='mini' type="primary" bindtap='scrollTo100left'>滚动指定（按下去有回馈）</button>
-<button class='move_button' size='mini' bindtap='setLoading' type="default" loading="{{loading}}" bindtap='scrollTop'>转圈的样式</button>
+<button class='move_button_loading' size='mini' bindtap='setLoading' type="default" loading="{{loading}}" >转圈的样式</button>
 <view>下面是一个横向滚动的</view>
 <scroll-view class='horizontal_scroll' scroll-x="true" style='width:100%;' bindscrolltoupper="upper" bindscrolltolower="lower" scroll-left="{{size_left}}">
-  <view class="scroll-x">
+  <view id='scroll_x_root' class="scroll-x">
     <view id="first" class="item_css_1">
-      <view class='inside_css'>
-        <text>1</text>
-        <text>2</text>
+      <view id="first_inside" class='inside_css'>
+        <text id="first_inside_1">1</text>
+        <text id="first_inside_2">2</text>
       </view>
     </view>
     <view id="second" class="item_css_2">2</view>
@@ -21,14 +21,14 @@
   </view>
 </scroll-view>
 <view>下面是一个竖直的滚动</view>
-<scroll-view class='vertical_scroll' scroll-y="true" style='height:100%' bindscrolltoupper="upper" bindscrolltolower="lower" scroll-top="{{size_top}}" scroll-into-view="{{toView}}">
-  <view class='scroll-y'>
-    <view id="first" class="item_css_3">1</view>
-    <view id="second" class="item_css_3">2</view>
-    <view id="third" class="item_css_4">3</view>
-    <view id="fourth" class="item_css_3">4</view>
-    <view id="fifth" class="item_css_4">5</view>
-    <view id="sixth" class="item_css_3">6</view>
-    <view id="seventh" class="item_css_4">7</view>
+<scroll-view id='vertical_scroll_view' class='vertical_scroll' scroll-y="true" style='height:100%' bindscrolltoupper="upper" bindscrolltolower="lower" scroll-top="{{size_top}}" scroll-into-view="{{id}}">
+  <view id='scroll_y_root' class='scroll-y'>
+    <text id='first' class="item_css_3">1</text>
+    <text id='second' class="item_css_3">2</text>
+    <text id='third' class="item_css_4">3</text>
+    <text id='fourth' class="item_css_3">4</text>
+    <text id='fifth' class="item_css_4">5</text>
+    <text id='sixth' class="item_css_3">6</text>
+    <text id='seventh' class="item_css_4">7</text>
   </view>
 </scroll-view>

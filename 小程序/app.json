@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/second/second",
     "pages/logs/logs",
-    "pages/third/third"
+    "pages/third/third",
+    "pages/fourth/fourth"
   ],
   "window": {
     "navigationBarBackgroundColor": "#F1C467",

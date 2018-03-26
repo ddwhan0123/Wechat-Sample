@@ -25,3 +25,4 @@
 </view>
 <navigator open-type='navigate' url='../second/second?title=haha&msg=aaa'>跳转第二个页面</navigator>
 <navigator url="../index/index?title=haha&msg=aaa" open-type="redirect" hover-class="other-navigator-hover">刷新自己</navigator>
+<navigator open-type='navigate' url='../fourth/fourth?title=haha&msg=第四个'>跳转第四个页面</navigator>
