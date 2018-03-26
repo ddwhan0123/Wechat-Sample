@@ -4,7 +4,7 @@ App({
     console.log('--->App.js onError')
   },
   onShow: function (options) {
-    console.log('--->App.js onShow')
+    console.log('--->App.js onShow options.path ' + options.path)
   },
   onHide: function (options) {
     console.log('--->App.js onHide')
@@ -14,7 +14,7 @@ App({
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
-    console.log('--->App.js onLaunch')
+    console.log('--->App.js onLaunch options.scene ' + options.scene)
     // 登录
     wx.login({
       success: res => {
