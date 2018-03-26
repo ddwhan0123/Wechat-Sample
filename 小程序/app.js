@@ -1,5 +1,14 @@
 //app.js
 App({
+  onError: function (options) {
+    console.log('--->App.js onError')
+  },
+  onShow: function (options) {
+    console.log('--->App.js onShow')
+  },
+  onHide: function (options) {
+    console.log('--->App.js onHide')
+  },
   onLaunch: function () {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
