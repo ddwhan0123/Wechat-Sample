@@ -9,7 +9,7 @@ App({
   onHide: function (options) {
     console.log('--->App.js onHide')
   },
-  onLaunch: function () {
+  onLaunch: function (options) {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
