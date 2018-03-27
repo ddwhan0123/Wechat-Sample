@@ -7,5 +7,5 @@
   </view>
 </view>
 <navigator url="../second/second?title=haha&msg=aaa" open-type="redirect" hover-class="other-navigator-hover">刷新自己</navigator>
-<navigator open-type='navigate' url='../fourth/fourth?title=haha&msg=第四个'>跳转第swiper页面</navigator>
+<navigator open-type='navigate' url='../fourth/fourth?title=haha&msg=第四个'>跳转循环页面</navigator>
 <navigator open-type='navigate' url='../third/third?title=haha&msg=aaa'>跳转scroll-view页面</navigator>
