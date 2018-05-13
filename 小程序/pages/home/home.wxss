@@ -1,0 +1,24 @@
+/* pages/home/home.js.wxss */
+
+.search_root {
+  background: #f1c467;
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_content {
+  background: #fff;
+  width: 88%;
+  height: 60rpx;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.root{
+  flex-direction: column;
+  display: flex;
+}

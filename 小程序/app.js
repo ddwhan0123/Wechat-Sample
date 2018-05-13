@@ -41,6 +41,9 @@ App({
         }
       }
     })
+    wx.setTabBarStyle({
+      selectedColor: '#F5CD79',
+    })
   },
   globalData: {
     userInfo: null

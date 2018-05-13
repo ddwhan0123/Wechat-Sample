@@ -1,18 +1,56 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/home/home",
     "pages/second/second",
     "pages/logs/logs",
     "pages/third/third",
-    "pages/fourth/fourth"
+    "pages/fourth/fourth",
+    "pages/me/me",
+    "pages/publish/publish",
+    "pages/moments/moments",
+    "pages/like/like"
   ],
   "window": {
     "navigationBarBackgroundColor": "#F1C467",
-    "navigationBarTextStyle": "white",
+    "navigationBarTextStyle": "black",
     "navigationBarTitleText": "只胡说不霸道",
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "imgs/static/home_un_select.png",
+        "selectedIconPath": "imgs/static/home_select.png"
+      },
+      {
+        "pagePath": "pages/moments/moments",
+        "text": "圈子",
+        "iconPath": "imgs/static/moments_un_select.png",
+        "selectedIconPath": "imgs/static/moments_select.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "imgs/static/publish.png",
+        "selectedIconPath": "imgs/static/publish.png"
+      },
+      {
+        "pagePath": "pages/like/like",
+        "text": "喜欢",
+        "iconPath": "imgs/static/like_un_select.png",
+        "selectedIconPath": "imgs/static/like_select.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "imgs/static/me_un_select.png",
+        "selectedIconPath": "imgs/static/like_select.png"
+      }
+    ]
   },
   "debug": true
 }

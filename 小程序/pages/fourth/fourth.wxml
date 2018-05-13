@@ -1,11 +1,14 @@
 <!--pages/fourth/fourth.wxml-->
 <text>pages/fourth/fourth.wxml</text>
-
-
 <scroll-view class='horizontal_scroll' scroll-x="true" style='width:100%;'>
-  <view wx:for="{{arrays}}" wx:key="math_nine_row" wx:for-item="i" style="flex-direction:row;display: flex;">
+  <view wx:for="{{arrays}}" wx:key="{{arrays.math_nine_row}}" wx:for-item="i" style="flex-direction:row;display: flex;">
     <view wx:for="{{arrays}}" wx:key="math_nine_col" wx:for-item="j">
       <view wx:if="{{i.msg<=j.msg}}" style="margin-right:10px;width:70px;height:30px">{{i.msg}}*{{j.msg}}={{i.msg * j.msg}}</view>
     </view>
   </view>
 </scroll-view>
+
+  <button bindtap='sortArray'>对下面内容进行排序</button>
+<view wx:for="{{sortarrays}}" wx:key="math_sort" wx:for-item="i">
+  {{i}}
+</view>

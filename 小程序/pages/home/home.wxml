@@ -1,0 +1,9 @@
+<!--pages/home/home.js.wxml-->
+<view class='root'>
+  <view class='search_root'>
+    <view class='search_content'>
+      <!-- To do缺少搜索的资源 -->
+    </view>
+  </view>
+  <Nav tabs="{{tabData}}"></Nav>
+</view>
