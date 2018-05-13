@@ -5,7 +5,7 @@
  */
 
 .weui-navbar {
-  margin-top: 50px;
+  margin-top: 40px;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -13,7 +13,7 @@
   z-index: 500;
   top: 0;
   width: 100%;
-  border-bottom: 1rpx solid #ccc;
+  border-bottom: 3rpx solid #ccc;
 }
 
 .weui-navbar__item {
@@ -36,7 +36,7 @@
   content: " ";
   left: 0;
   bottom: 0;
-  width: 50%;
+  width: 20%;
   height: 3px;
   background-color: #F5CD79;
   -webkit-transition: -webkit-transform 0.3s;
@@ -59,7 +59,7 @@
 .weui-tab__panel {
   box-sizing: border-box;
   height: 100%;
-  padding-top: 50px;
+  padding-top: 40px;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
 }
