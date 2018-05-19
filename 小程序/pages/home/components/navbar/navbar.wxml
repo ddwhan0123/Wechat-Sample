@@ -10,8 +10,12 @@
         <view class="weui-navbar__slider" style="left: {{sliderLeft+56}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
       </view>
       <view class="weui-tab__panel">
-        <view class="weui-tab__content" hidden="{{activeIndex != 0}}">PHOTO</view>
-        <view class="weui-tab__content" hidden="{{activeIndex != 1}}">BLOG</view>
+        <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
+          <Photo> </Photo>
+        </view>
+        <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+          <Blog></Blog>
+        </view>
       </view>
     </view>
   </view>
