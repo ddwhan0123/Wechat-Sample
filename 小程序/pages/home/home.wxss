@@ -20,5 +20,9 @@
 
 .root{
   flex-direction: column;
-  display: flex;
+  height: 100%;
+}
+
+page{
+  height: 100%;
 }

@@ -1,2 +1,4 @@
 <!--pages/home/components/blog/blog_list.wxml-->
-<text>pages/home/components/blog/blog_list.wxml</text>
+<view class='component_root'>
+  <text>pages/home/components/blog/blog_list.wxml</text>
+</view>

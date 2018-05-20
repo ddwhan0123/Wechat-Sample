@@ -5,5 +5,5 @@
       <!-- To do缺少搜索的资源 -->
     </view>
   </view>
-  <Nav tabs="{{tabData}}"></Nav>
+   <Nav tabs="{{tabData}}" style="height:100%;margin-top:90rpx"></Nav> 
 </view>

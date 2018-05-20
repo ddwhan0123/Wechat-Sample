@@ -1,1 +1,7 @@
 /* pages/home/components/blog/blog_list.wxss */
+
+.component_root {
+  width: 100%;
+  height: 100%;
+  background: #e7eaee;
+}
