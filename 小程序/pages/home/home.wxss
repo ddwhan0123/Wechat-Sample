@@ -7,22 +7,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 200;
+  position: relative;
 }
 
 .search_content {
   background: #fff;
-  width: 88%;
+  width: 89%;
   height: 60rpx;
   border-radius: 20px;
   display: flex;
   flex-direction: row;
+  z-index: 200;
+  position: relative;
 }
 
-.root{
+.root {
   flex-direction: column;
   height: 100%;
+  overflow: hidden;
 }
 
-page{
+page {
   height: 100%;
 }

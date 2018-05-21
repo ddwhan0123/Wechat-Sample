@@ -5,7 +5,7 @@
  */
 
 .weui-navbar {
-  margin-top: 40px;
+  margin-top: 90rpx;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -31,6 +31,7 @@
   color: #f5cd79;
 }
 
+/* 小黄条 */
 .weui-navbar__slider {
   position: absolute;
   content: " ";
@@ -59,15 +60,15 @@
 .weui-tab__panel {
   box-sizing: border-box;
   height: 100%;
-  padding-top: 40px;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
+  padding-top: 93rpx;
 }
 
 .tab_content {
   height: 100%;
 }
 
-.page_root{
+.page_root {
   height: 100%;
 }
