@@ -49,25 +49,25 @@ function register(context, json) {
 }
 
 function scroll(context) {
-  console.log("scroll...");
+  console.log("--->scroll...");
   context.data.scrolling = true;
 
 }
 //上拉  滚动条 滚动到底部时触发
 function lower(context) {
-  console.log("lower...")
-  context.data.isLower = true;
-  context.data.scrolling = false;
+  // console.log("--->lower...")
+  // context.data.isLower = true;
+  // context.data.scrolling = false;
 
 }
 //下拉  滚动条 滚动顶底部时触发
 function upper(context) {
-  console.log("upper....");
+  console.log("--->upper....");
   context.data.isUpper = true;
   context.data.scrolling = false;
 }
 function start(context, e) {
-  console.log('start ');
+  console.log('--->start ');
   if (context.data.scrolling || context.data.loading) {
     return;
   }
@@ -87,7 +87,7 @@ function end(context, e) {
   if (context.data.refreshing) {
     return;
   }
-  console.log('end');
+  console.log('--->end');
   //释放开始刷新
   var height = context.data.loadingHeight;
   if (context.data.refreshHeight > context.data.loadingHeight) {
