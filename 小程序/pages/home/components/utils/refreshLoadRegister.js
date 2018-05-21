@@ -24,7 +24,7 @@ function register(context, json) {
       context.setData({
         windowHeight: res.windowHeight
       })
-      console.log("屏幕高度: " + res.windowHeight);
+      console.log("--->屏幕高度: " + res.windowHeight);
       context.data.loadingHeight = res.windowHeight * 0.08;
     }
   });
